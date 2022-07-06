@@ -6,12 +6,12 @@
 
 ## 1. Quick Start
 
-1. Install [Docker](#### 2.1.1 Docker) & [SSH](#### 2.1.2 SSH) on WSL2 Environment
-2. [Grant permission to run `sudo` command without certification to user](#### 2.1.3 Sudoers)
+1. Install [Docker](#### 2.1.1 Docker) & [SSH](####-2.1.2-SSH) on WSL2 Environment
+2. [Grant permission to run `sudo` command without certification to user](####-2.1.3-Sudoers)
 3. Copy `init-wsl` to `/etc`. (As `/etc/init-wsl`)
-4. [Grant permission to run user-defined PowerShell script](#### 2.2.4 Modifying PowerShell script directory & Granting PowerShell script run permission)
-5. [Modify `service-auto-start.bat` based on `wsl-network.ps1`'s location](#### 2.2.4 Modifying PowerShell script directory & Granting PowerShell script run permission)
-6. Run `service-auto-start.bat` or [make it to be run on every Windows startup](#### 2.2.5 Run `service-auto-start.bat` on Windows startup)
+4. [Grant permission to run user-defined PowerShell script](####-2.2.4-Modifying-PowerShell-script-directory-&-Granting-PowerShell-script-run-permission)
+5. [Modify `service-auto-start.bat` based on `wsl-network.ps1`'s location](####-2.2.4-Modifying-PowerShell-script-directory-&-Granting-PowerShell-script-run-permission)
+6. Run `service-auto-start.bat` or [make it to be run on every Windows startup](####-2.2.5-Run-`service-auto-start.bat`-on-Windows-startup)
 
 ## 2. Prequisites & Configuration
 
