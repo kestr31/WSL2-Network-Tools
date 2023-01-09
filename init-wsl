@@ -1,8 +1,0 @@
-#!/bin/sh
-echo initializing services...
-
-echo Run Docker Service
-service docker start
-
-echo Run SSH service
-service ssh start
