@@ -25,7 +25,5 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
-:: Run services on WSL2 via shell script /etc/init-wsl
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe wsl -d Ubuntu -u merlin sudo /etc/init-wsl
 :: Run PowerShell script for network access settings
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Users\<USERNAME>\DIRECTORY\TO\wsl-network.ps1"
